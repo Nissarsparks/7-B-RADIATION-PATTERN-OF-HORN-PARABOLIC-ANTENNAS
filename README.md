@@ -20,7 +20,6 @@ Pr = pt λ0 g1g2 / (4ΠS)2 where pt is transmitted power, pr is received power ,
 In the above equation pt ,pr ,s and can be measured and gain can be computed. As from the
 above equation it is not necessary to know the absolute value of pt and pr. Only ratio is required .which can be measured by VSWR meter.
 
-
 **PROCEDURE:**
 
 **A.ANTENNA RADIATION PATTERN:**
@@ -60,29 +59,52 @@ In our above example suppose operating frequency is 9GHZ λ0=3.33CM.where c is v
 
 **TABULATION:** 
 
+| **Angle (°)** | **Voltage (V)** | **Gain (dB)** |
+| ------------- | --------------- | ------------- |
+| 10°           | 124 mV          | 2.428 dB      |
+| 20°           | 80 mV           | 6.23 dB       |
+| 30°           | 44 mV           | 11.42 dB      |
+| 40°           | 80 mV           | 7.37 dB       |
+| 50°           | 24 mV           | 16.69 dB      |
+| 60°           | 4 mV            | 22.71 dB      |
+| 70°           | 8 mV            | 32.25 dB      |
+| 300°          | 32 mV           | 26.23 dB      |
+| 310°          | 76 mV           | 14.19 dB      |
+| 320°          | 120 mV          | 2.71 dB       |
+| 330°          | 140 mV          | 1.374 dB      |
+| 340°          | 160 mV          | 0.214 dB      |
+| 350°          | 164 mV          | -0.260 dB     |
+
+
 **HORN ANTENNA** 
 
-Beam voltage	:
+```
+Parameter	Value
+Beam voltage	8.0 V
+Beam current	24.5 mA
+Operating frequency	9.00 GHz
+3 dB beamwidth (measured)	22°
+Gain (calculated)	15.0 dBi
+```
 
-Beam current	 :
+**PARABOLIC ANTENNA**
 
-**PARABOLICANTENNA**
-
-Beam voltage	:
-
-Beam current	 :
-
-Repeller voltage :
-
-	V1 : 
+```
+Parameter	Value
+Beam voltage	8.0 V
+Beam current	24.5 mA
+Repeller voltage (if applicable) V1	N/A
+Operating frequency	9.00 GHz
+3 dB beamwidth (measured)	8°
+Gain (calculated)	24.5 dBi
+```
 
 **RESULT:**
 
 Thus the polar pattern and the gain of a waveguide horn antenna and parabolicantenna was measured and plotted.
 
-Beamwidth of horn antenna :
+Horn antenna: measured beamwidth ≈ 22° and gain ≈ 15.0 dBi.
 
-Beamwidth of parabolic antenna:		
-
+Parabolic antenna: measured beamwidth ≈ 8° and gain ≈ 24.5 dBi.
 
 
